@@ -9,9 +9,12 @@ footer {
 	margin: 0 auto;
 }
 
-marquee {
-	padding: 1rem;
-	background-color: #eee;
+div.banner {
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: rgb(230, 243, 254);
+    font-weight: 700;
+    color: black;
 }
 
 h1 {
@@ -20,25 +23,46 @@ h1 {
 
 main {
 	display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
 }
 
 h2 {
+    display: grid;
+    grid-column: 1/3;
 	color: navy;
-	text-align: center;
+	text-align: left;
+}
+
+
+h3 {
+    margin-bottom: .5em;
+}
+
+.steps ul {
+    padding-left: 2rem;
 }
 
 article p {
 	text-align: justify;
+    padding: 1rem;
 }
 
 .callout {
-	color: #777;
-	background-color: #702963;
+    display: grid;
+    grid-column: 1/3;
+	color: #fff;
+	background-color: #11526F;
+    padding: 1rem;
 }
 
 footer {
 	margin-top: 1rem;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	font-size: smaller;
-	text-align: right;
+	text-align: left;
 }
