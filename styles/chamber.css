@@ -15,7 +15,7 @@
   --headline-color-on-white: #0081A7;  /* headlines on a white background */ 
   --headline-color-on-color: #dda15e; /* headlines on a colored background */ 
   --paragraph-color-on-white: #00AFB9 ; /* paragraph text on a white background */ 
-  --paragraph-color-on-color:#dda15e ; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color:#37a8a3 ; /* paragraph text on a colored background */ 
 
   --text-background-color: #ccd7e4;
   --nav-link-color: #aa4465;
@@ -31,19 +31,73 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
+
+
+.mobile-page {
   display: block;
-  width: 700px;
-  height: 500px;
+  width: 500px;
+  height: 100px;
   margin:0 auto;
 }
+
+
+
+img {
+  display: block;
+  width: 500px;
+  height: 700px;
+  margin:0 auto;
+  padding: 2px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  text-align: left;
 }
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0em;
+    /*margin: 1em;*/
+  
+}
+
+
 h2 {
   text-align: center;
+  font-size: 50px;
+  margin: 0.5em;
+
 }
+
+ol {
+  text-align: left;
+
+}
+
+/*
+h2 {
+  text-align: left;
+  font-size: 50px;
+  margin: 1em;
+
+}
+
+h3 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  text-align: left;
+  font-size: 50px;
+  /*margin: 1em;
+
+}
+
+*/
+
+
+
 hr {
   height: 3px;
   margin: 35px 0;
@@ -64,6 +118,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  text-align: left;
 }
 .colors {
   width: 100%;
@@ -72,7 +127,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: rgb(127, 228, 194);
 }
 .colors td{
   width: 25%;
@@ -123,24 +178,3 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-
-
-/* .top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
-}
-p {
-  text-align: center;
-} */
