@@ -81,6 +81,10 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     height: 10px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     /*margin-left: 1em;*/
 }
 h3 {
@@ -128,4 +132,5 @@ main {
     padding-bottom: 3rem;
     padding-top: 0rem;
 }
+
 
