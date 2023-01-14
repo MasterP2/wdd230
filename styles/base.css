@@ -3,7 +3,7 @@
 @media only screen and (min-width: 20rem) {
 
 .menu-icon {
-    size:30px;
+    resize:30px;
     background-color: #fff;
     color:#fff;
 
@@ -91,7 +91,7 @@ h3 {
     border: 0.5em;
     text-align: center;
     padding: 1rem;
-    font-display: block;
+    /* font-display: block; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     height: 20px;
