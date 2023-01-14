@@ -1,29 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); 
 
+@media only screen and (min-width: 20em) {
 
-
-.menu-icon {
+/* .menu-icon {
     size:30px;
     background-color: #fff;
     color:#fff;
 
-}
+} */
 
 
 nav {
-    
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: lightskyblue;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    /* background-color: #E6E6EA; */
+    /*gap: 1rem;*/
+    padding: 0.1rem;
+    font-size: 20px; }
+    
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #E6E6EA;
-    /*gap: 1rem;*/
+    /*gap: 1rem;*//*
     padding: 0.1rem;
-    font-size: 20px;
+    font-size: 20px;  */
 
 
     
 }
+
+
+.navigation { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation li:first-child  {
+    display: block;
+}
+
+.navigation li { 
+    display: none;
+}
+
+.navigation a { 
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.menu::before {
+    /* content: "="; */
+    font-size: 2rem;
+    
+
+}
+
+
+.navigation a:hover, navigation a:active {
+
+    color: white;
+    background-color: black;
+
+}
+
+
+.responsive li {
+    display: block;
+
+}
+
+
+.responsive a.menu::before {
+    content: "X";
+
+}
+
 
 .profile {
     display: grid;
@@ -81,10 +145,6 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     height: 10px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     /*margin-left: 1em;*/
 }
 h3 {
@@ -134,3 +194,4 @@ main {
 }
 
 
+}
