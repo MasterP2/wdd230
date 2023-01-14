@@ -59,9 +59,13 @@
 
             </section>
         </main>
-    <footer class="highlight" class="lastModified"> 
-        <p>&copy; 2023 | Peace Arikpo | Nigeria</p> 
-       <p>Last Modified | Tuesday, December 16, 2023 11:09:42 </p>  
+    <footer> 
+        <p> &copy; <script>document.write(new Date().getFullYear())</script> | Peace Arikpo | Nigeria</p> 
+       <p class="highlight" class="lastModified">Last Modified | Tuesday, December 16, 2023 11:09:42 </p>  
+            <script>
+                const date = new Date(document.lastModified);
+                document.getElementById("lastModified").innerHTML = date; 
+                </script>
     </footer>
 
     <script src="scripts/getDates.js"></script>
@@ -71,7 +75,7 @@
 
 
 
-<p> &copy;
+<!-- <p> &copy;
     <script>document.write(new Date().getFullYear())</script>
      Teresa Moser  United States
 </p>
@@ -80,7 +84,7 @@
        const date = new Date(document.lastModified);
        document.getElementById("lastModified").innerHTML = date; 
    </script>
-</p>
+</p> -->
 
 
 
