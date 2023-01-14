@@ -1,43 +1,17 @@
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 52rem) {
 
-    
-    
     nav {
         flex-direction: row-reverse;
         justify-content: right;
         gap: 1.5rem;
         
-        
     }
 
-    .navigation {
-        display: flex;
-        align-self: flex-end;
-    
-    }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 auto;
-    }
-
-    .navigation a {
-        text-align: center;
-
-    }
-
-   
-    
-
-    .navigation li:first-child {
-        display: none;
-    }
 
     nav div {
         display: block;
         padding: 15px;
         flex-direction: row-reverse;
-        align-items: flex-start;
 
     }
 
