@@ -9,3 +9,6 @@ Course Outcomes
 - Plan, design, and develop web pages and sites according to best practices of organization and maintainability.
 - Work with JavaScript to handle events and interactions within the browser including JSON and remote APIs.- 
 - Work effectively within a team by teaching and learning collaboratively, communicating clearly, fulfilling assignments, and meeting deadlines.
+
+This link shows all my outcome:
+https://peace-23.github.io/wdd230/
