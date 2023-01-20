@@ -55,25 +55,35 @@
             <section class="card3">
                 <h3>Information</h3>
                     <!-- <ul>
-                        <li><a href="chamber\ndex.html"> Abeokuta Chamber of Commerce</a></li>
+                        <li><a href="chamber\ndex.html"> Abeokuta Chamber of Commerce</a></li>Last Modified | Tuesday, December 16, 2023 11:09:42
                     </ul> -->
 
             </section>
         </main>
     <footer> 
-        <p> &copy; <script>document.write(new Date().getFullYear())</script> | Peace Arikpo | Nigeria</p> 
-        <p class="highlight, lastModified">Last Modified | Tuesday, December 16, 2023 11:09:42 </p>  
+        <p> &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            | Peace Arikpo | Nigeria
+       </p>
+       <p class="highlight" id="lastModified">
+           <script>
+               const date = new Date(document.lastModified);
+               document.getElementById("lastModified").innerHTML = date; 
+           </script>
+       </p>
+        <!-- <p> &copy; 
+            <script>document.write(new Date().getFullYear())</script> | Peace Arikpo | Nigeria
+        </p> 
+        <p class="highlight" di="lastModified">  
             <script>
                 const date = new Date(document.lastModified);
                 document.getElementById("lastModified").innerHTML = date; 
             </script>
+        </p>  -->
     </footer>
         <script src="scripts/getDates.js"></script>
     </body>
 </html>
-
-
-
 
 
 
