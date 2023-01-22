@@ -72,3 +72,357 @@ a {
     transition: background-color 0.3s ease-out, color 0.3s ease-out;
     
 }
+
+
+
+
+/* ???======= */
+
+
+<nav class="navbar">
+         <ul class="nav-menu">
+            <li class="nav-item">
+               <a href="https://www.byui.edu/" class="nav-link">BYU-Idaho</a>
+            </li>
+            <li class="nav-item">
+               <a
+                  href="https://www.linkedin.com/home"
+                  class="nav-link"
+                  >LinkedIn</a
+                  >
+            </li>
+            <li class="nav-item">
+               <button class="darkButton">Dark Mode ☑️</button>
+            </li>
+         </ul>
+         <div class="hamburger">
+            <img class="hamb-menu" src="images/menu.svg" width="25" height="25" alt="menu">
+            <img class="x-menu" src="images/x.svg" width="25" height="25" alt="menu">
+         </div>
+      </nav>
+      <header>
+         <img src="images/photo.webp" alt="profile photo">
+         <h1>Willian Mayer</h1>
+      </header>
+      <main>
+         <div class="temples">
+         <picture>
+            <source media="(min-width:960px)" srcset="images/sandiegoTemple.webp">
+            <source media="(min-width:400px)" srcset="images/sandiegoTemple2.webp">
+            <img class="temple" src="images/sandiegoTemple.webp" alt="San Diego Temple 1">
+         </picture>
+         <div class="herolabel">
+            <p>San Diego California Temple</p>
+         </div>
+      </div>
+
+
+
+
+   
+      
+
+
+      <h2>WDD 230: Course Activity Portal</h2>
+         <hr>
+         <div class="cards">
+            <section class="card">
+               <h3>Learning Activities</h3>
+               <ul>
+                  <li>Week 1: <a href="week01/HolyGrail/holygrail.html">Holy Grail</a> | <a href="week01/MediaQuery/media-query.html">Media Query</a></li>
+                  <li>Week 2: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/WillyMayer1/pen/qByrveW">Responsive "Hamburger" Menu</a> | <a href="week02/bom.html">DOM Manipulation</a></li>
+                  <li>Week 3: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a>
+                  | <a href="https://codepen.io/WillyMayer1/pen/rNrGeoN">Responsive Wbebsite - srcset</a> | <a href="week03/bom.html">Web Store API - LocalStorage</a></li>
+                  <li>Week 4: <a href=""></a></li>
+                  <li>Week 5: <a href=""></a></li>
+                  <li>Week 6: <a href=""></a></li>
+               </ul>
+            </section>
+            <aside>
+               <section class="card">
+                  <h3>Project</h3>
+                  <ul>
+                     <li><a href="week01/ChamberCommerce/chamber-site-plan.html">Chamber of Commerce of Cuyo Site Plan</a></li>
+                     <li><a href="chamber/index.html">Chamber of Commerce of Cuyo</a></li>
+                  </ul>
+               </section>
+               <section class="card">
+                  <h3>Information</h3>
+                  <p>🌤️ 82.4 F - Sunshine</p>
+                  <p><span class="label">Visit Count: </span><span class="visits"></span></p>
+               </section>
+            </aside>
+         </div>
+         <div class="maps">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48727013532!2d-68.8585191!3d-32.8833352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1674073113734!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </main>
+
+
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+ body {
+     margin: 0 0;
+}
+ h1 {
+     font-family: 'Montserrat', sans-serif;
+     color: whitesmoke;
+}
+ p, a {
+     font-family: 'Robot', sans-serif;
+}
+ nav {
+     display: flex;
+     flex-direction: row-reverse;
+     flex-direction: column;
+     gap: 1rem;
+     align-items: center;
+     background-color: #0096c7;
+     padding: 1.5rem;
+}
+ nav a {
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+     color: whitesmoke;
+     font-size: larger;
+}
+ li{
+     list-style-type: none;
+     margin-bottom: 15px;
+}
+ a{
+     text-decoration: none;
+}
+ .link{
+     margin-left: 10px;
+     text-decoration: underline;
+}
+ .link:hover{
+     color: dodgerblue;
+}
+ .navbar{
+     min-height: 70px;
+     display: flex;
+     justify-content: right;
+     align-items: center;
+     padding: 0 24px;
+}
+ .nav-menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 60px;
+}
+ .nav-branding{
+     font-size: 2rem;
+}
+ .nav-link{
+     transition: 0.7s ease;
+}
+ .nav-link:hover{
+     color: dodgerblue;
+}
+ .darkButton{
+     border: none;
+     transition: 0.7s ease;
+}
+ .darkButton:hover{
+     color: dodgerblue;
+}
+ .hamburger{
+     display: none;
+     cursor: pointer;
+}
+ .bar{
+     display: block;
+     width: 25px;
+     height: 3px;
+     margin: 5px auto;
+     -webkit-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+     background-color: black;
+}
+ header {
+     width: 100%;
+     display: flex;
+     background-color: #1d3557;
+}
+ header img {
+     width: 15%;
+     height: 15%;
+     margin: 0 2rem;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ header h1 {
+     margin: auto auto;
+     font-size: 2rem;
+}
+ main {
+     padding: 0px 0px;
+     width: 100%;
+     color: black;
+     font-family: 'Roboto', sans-serif;
+}
+ h2 {
+     text-align: center;
+}
+ .cards {
+     display: block;
+     width: 90%;
+}
+ .card {
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     padding: 1rem;
+     padding-bottom: 1rem;
+     height: auto;
+     margin: 1rem auto;
+     width: 20rem;
+     text-align: center;
+}
+ aside {
+     margin: 0 auto;
+     width: 100%;
+}
+ .card h3 {
+     background-color: #1d3557;
+     color: whitesmoke;
+     text-align: center;
+     margin: 0 auto 1rem;
+     padding: 1%;
+}
+ .card li {
+     margin: 10px auto 10px;
+}
+ footer {
+     text-align: center;
+     background-color: #1d3557;
+}
+ footer a, footer p {
+     font-family: 'Roboto', sans-serif;
+     color: whitesmoke;
+     font-weight: 100;
+     margin: 0 auto;
+     padding: 0.5rem;
+}
+ .highlight {
+     color: yellow;
+}
+ .flag {
+     width: 5%;
+     height: 5%;
+}
+ .hamburger{
+     display: block;
+}
+ .x-menu {
+     opacity: 0%;
+}
+ .hamburger.active .hamb-menu{
+     opacity: 0%;
+}
+ .hamburger.active .x-menu{
+     opacity: 100%;
+}
+ .nav-menu{
+     display: none;
+}
+ .nav-item{
+     margin: 20px;
+}
+ .nav-menu.active{
+     display: contents;
+     justify-content: space-between;
+}
+
+/*Temple*/
+
+.temples {
+    position: relative;
+}
+.temple {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* largerCSS */
+
+@media screen and (min-width: 960px) {
+	body {
+		height: auto;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 3rem;
+		align-items: center;
+		background-color: #0096c7;
+		padding: 1.5rem;
+	}
+
+	header img {
+		width: 5%;
+		height: 5%;
+		margin: -1em 2em;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+
+	main {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.cards {
+		display: flex;
+		width: 100%;
+	}
+
+	.card {
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+		padding-bottom: 1rem;
+		height: auto;
+		margin: 3rem auto;
+		width: 80%;
+
+	}
+
+
+	aside {
+		display: block;
+		width: 100%;
+	}
+
+	iframe {
+		width: 90%;
+	}
+}	

@@ -1,0 +1,44 @@
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 3em;
+    margin-bottom: 2em;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0077b6;
+    color: #fff;
+}
