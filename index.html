@@ -18,14 +18,31 @@
     </head>
 
     <body>
-        <nav > 
+            <nav class="navbar">
+                <ul class="nav-menu">
+                   <li class="nav-item">
+                      <a href="https://www.byui.edu/" class="nav-link">BYU-Idaho</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="https://www.linkedin.com/home" class="nav-link" >LinkedIn</a>
+                   </li>
+                   <li class="nav-item">
+                      <button class="darkButton">Dark Mode ☑️</button>
+                   </li>
+                </ul>
+                <div class="hamburger">
+                   <img class="hamb-menu" src="images/menu.svg" width="25" height="25" alt="menu">
+                   <img class="x-menu" src="images/x.svg" width="25" height="25" alt="menu">
+                </div>
+             </nav>
+            
             
             <!-- navigation here 
             <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" height="70" width="45"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>-->
-            <a href="#" id="menu-button">&#9776;</a>
+            <!-- <a href="#" id="menu-button">&#9776;</a>
             <a href="https://www.byui.edu/">BYU-Idaho</a>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-        </nav>
+            <a href="https://www.linkedin.com/">LinkedIn</a> -->
+
 
     <header> 
             <img class="profile" src="images/peace.webp" alt="Peace-photo" loading="lazy" width="100" height="136"/>
@@ -98,6 +115,8 @@
     </footer>
         <script src="scripts/getDates.js"></script>
         <script src="scripts/localStorage.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/darkMode.js"></script>
     </body>
 </html>
 

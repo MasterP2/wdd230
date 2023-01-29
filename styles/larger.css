@@ -1,19 +1,27 @@
 @media screen and (min-width: 1024px) {
 
-    nav {
+    /* nav {
         flex-direction: row-reverse;
         justify-content: right;
         gap: 1.5rem;
         
-    }
+    } */
 
+    nav {
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 1.5rem;
+		align-items: center;
+		background-color: #219ebc;
+		padding: 1.5rem;
+	}
 
-    nav div {
+    /* nav div {
         display: block;
         padding: 15px;
         flex-direction: row-reverse;
 
-    }
+    } */
 
 
     main {
@@ -49,10 +57,11 @@
     iframe{
         
         max-width: 800px;
+        height: 500px;
         
     }
     .map{
-       padding: 0;
+       padding: 1em;
        width: 100%;
     }
 
@@ -63,8 +72,10 @@
         border-radius: 1em;
         font-size: 18px;
         background-color:#ffddd2;
+        box-shadow: 0 0 15px #000;
     }
 
+  
 
     .card2 {
         grid-column: 2/3;
@@ -73,6 +84,7 @@
         border-radius: 0.7em;
         font-size: 18px;
         background-color:#ffddd2;
+        box-shadow: 0 0 15px #000;
         
     }
     
@@ -83,6 +95,7 @@
         border-radius: 0.7em;
         font-size: 18px;
         background-color:#ffddd2;
+        box-shadow: 0 0 15px #000;
     }
 
     h2 {

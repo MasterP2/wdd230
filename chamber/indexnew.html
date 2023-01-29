@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Peace Arikpo" />
+        <meta property="og:title" content="WDD 230  Course Portal Page | Peace Arikpo">
+        <meta property="og:type" content="Personal Website" />
+        <meta property="og:image" content="images/logo.png">
+        <meta property="og:url" content="https://peace-23.github.io/wdd230/">
+        <meta name="description" content="WDD 230 - Peace Arikpo - Course Team Activity Portal" />
+        <!-- <meta name="twitter:card" content="summary_large_image"> -->
+        <title>WDD 230 - Portal - Peace Arikpo</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/basenew.css" /> 
+        <link rel="stylesheet" href="styles/largernew.css" />
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="darkButton">Dark Mode ☑️</button>
+                    </li>
+                   <li class="nav-item">
+                    <a href="#" class="nav-link" >Contact Us</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="#" class="nav-link" >Key Events</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="discover.html" class="nav-link">Discover</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                   <img class="hamb-menu" src="images/menu.svg" loading="lazy" width="25" height="25" alt="menu">
+                   <img class="x-menu" src="images/x.svg" loading="lazy" width="25" height="25" alt="menu">
+                </div>
+             </nav>
+            
+    <header> 
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/greece-gd7eb635c4_1920_small.webp" >
+                <source media="(max-width: 1000px)" srcset="images/greece-gd7eb635c4_1920_medium.webp" >
+                <img src="images/greece-gd7eb635c4_1920.webp" alt="arial photo" width="1000" height="400" loading="lazy" >
+            </picture>
+            <div class="herolabel">
+                <h1><span>Abeokuta</span>Chamber of Commerce</h1> <br>
+                <a class="callout-btn"  href="#">Join Us!</a>
+            </div>
+        </div>
+    </header>
+        <main> 
+            <h2>Come Join us to build relationship and grow together!</h2>
+            <hr>
+            <section class="card1">
+                <h3>Events</h3>
+                    <ul>  <!--  <ul style="list-style: none;">-->
+                        <li>Jan-Mar:<a href="#"> 12th Annual Funds for Youth Education | Improve Education standard</a> </li>
+                        <li>Apr-Jun:<a href="#"> 5th Annual Business Showcase | Grow business through networking</a> </li>
+                        <li>Jul-Sept:<a href="#"> 1th Annual Community Blood Drive | Service to the Community</a> </li>
+                        <li>Oct-Dec:<a href="#"> 24th Annual Craft Fare | Patronize small businesses</a> </li>
+                    </ul>
+
+            </section>
+            <section class="card2">
+                <h3>Weather</h3>
+                    <p> 🌤️ 75 F - Sunshine<br>
+                    Humidity: 35% <br>
+                    Wing Chill: N/A <br>
+                    <span class="label">Number of Visits: </span><span class="visits"></span>
+                    </p>
+                    
+            </section>
+            <section class="card3">
+                <h3>SMART TECHNOLOGIES </h3>
+                <p> Grow and protect your tech gadgets with serviices that saves you money.</p>
+                <h4> www.smartech.com<br>
+                    605-356-5489<br>
+                </h4>
+
+            </section>
+
+            <section class="card4">
+                <h3>NIKITA CLOTHING</h3>
+                <p> From ideas to reality designs.</p>
+                <h4> www.nikclothyou.com<br>
+                    925-456-3265<br>
+                </h4>
+
+            </section>
+
+            <section class="card5">
+                <h3>SPENCER PLUMBING</h3>
+                <p> Fix anything plumbing.</p>
+                <h4> www.callspencer.com<br>
+                    512-789-1475<br>
+                </h4>
+
+            </section>
+        </main>
+            <div class="map">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.9859142496994!2d3.3496596925114654!3d7.135638942563708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103a4bf6995dfc7f%3A0x6734fcf62892478d!2sAbeokuta%2C%20Ogun%20State%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1674359628232!5m2!1sen!2sus"
+                width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >
+                </iframe>
+            </div>
+    <footer> 
+        <p> &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            | Peace Arikpo | Nigeria
+       </p>
+       <p class="highlight" id="lastModified">
+           <script>
+               const date = new Date(document.lastModified);
+               document.getElementById("lastModified").innerHTML = date; 
+           </script>
+       </p>
+
+    </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/localStorage.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/darkMode.js"></script>
+    </body>
+</html>
+
+
+
