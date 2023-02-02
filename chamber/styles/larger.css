@@ -282,10 +282,12 @@
  .img2,
  .img3,
  .img4,
- .img5,
+ .img5
  .img6 :hover {
-    box-shadow: 0 0 50px #333;
+    box-shadow: 0 0 20px #333;
 } */
+
+
 
 .section1{
     /* background-color: yellowgreen; */
@@ -300,6 +302,9 @@
 .img1 {
     grid-column: 1/2;
     grid-row: 1/2;
+
+
+
 }
 
 
