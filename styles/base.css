@@ -2,6 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media only screen and (min-width: 20rem) {
 
+
+    :root {
+        --link-color: #219ebc;
+        --primary-color: #11526F;
+        --main-color: #fff;
+        --section-color: #ffddd2;
+        --box-shadow: 0 0 15px #000;
+        --footer: #11526F;
+
+
+
+
+    }
+
+
+
 .menu-icon {
     /* resize:30px; */
     background-color: #fff;
@@ -16,7 +32,7 @@ nav {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    background-color: #caf0f8;
+    /* background-color: #caf0f8; */ background-color: var(--link-color);
     gap: 1rem;
     padding: 1em;
     font-size: 18px;
@@ -148,7 +164,7 @@ header {
     grid-template: auto 1fr auto / auto 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
-    background-color:#11526F;
+    /* background-color:#11526F; */background-color: var(--primary-color);
     justify-items: center;
     color:#E6E6EA;
     /*text-align: center;*/
@@ -249,7 +265,7 @@ iframe{
 
 footer {
     max-width: 100%;
-    background-color:#11526F;
+    /* background-color:#11526F; */ background-color: var(--footer);
     justify-items: center;
     color:#fff;
     text-align: center;
@@ -290,6 +306,116 @@ main {
     margin: 10px;
 
 }
+
+
+.contact{
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    max-width: 375px;
+    margin: auto;
+    padding: .5em;
+    border-radius: 1em;
+  
+}
+.contact h4{
+    font-size: larger;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1em;
+    display: block;
+    padding-bottom: .25em;
+    padding-left: 1em;
+}
+
+label.top input, label.top select{
+    display: block;
+    font-size: 1em;
+    border: solid 1px grey;
+    border-radius: 4px;
+    /* padding: .75em; */
+    color: #555;
+    width: 100%;
+    max-width: 20em;
+    background-color: rgba(0,0,0,0.1);
+}
+
+label.top input:required{
+    border-left: red solid 6px;
+}
+label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+#input.submitButton{
+    border: none;
+    border-radius: 1em;
+    padding: .75em 1.5em;
+    margin: 0 0 2em 2%;
+    width: 96%;
+    max-width: 20em;
+
+}
+
+#submitButton {
+    background-color: #9c2c13;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: .75em 1.5em;
+    margin: 0 0 2em 2%;
+    width: 96%;
+    max-width: 20em;
+
+}
+
+
+input {
+    margin: 0;
+    padding-left: 1em;
+    line-height: 2.5em;
+    display: block;
+    margin-bottom: 1em;
+    /* font-weight: 700; */
+}
+.rangecontainer{
+    padding-left: 1em;
+}
+#r {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 82%;
+    /* background-color: var(--primary-color); */
+    
+}
+/* range{
+    color: var(--primary-color);
+} */
+.ratinglabels {
+    font-size: 1rem;
+    /* font-weight: 700; */
+    margin: 0 0 1rem 1.1rem;
+    color: black;
+    letter-spacing: 1.8em;
+}
+
+#rating {
+    color: black;
+}
+/* #submit_button{
+    padding: .5em;
+    font-size: 1.5em;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+} */
+
+
+
 
 
 }
