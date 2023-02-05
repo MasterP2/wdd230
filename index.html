@@ -96,7 +96,7 @@
            <div class="contact">
             <h4>Contact Us Form</h4>
             <form id="contact" method="get" >
-                <label class="top">Full Name*<input type="text" name="full name" required placeholder="Fullname "></label>
+                <label class="top">Full Name*<input type="text" name="full name" required placeholder="Your full name "></label>
                 <label class="top">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
                 
                 <label for="r">Rate Page [ <span id="rating"></span> ]:</label>
@@ -110,12 +110,46 @@
                         <span class="ratevalue">5</span>
                  </div>
                 </div>
-                <label class="top">User Name*<input type="text" name="Username" required></label>
-                <label class="top">Repeat User-Name*<input type="text" name="Repeat Username" required></label>
+                <label class="top">Username*<input type="text" name="password" pattern="[a-z]*" required></label>
+                <label class="top">Repeat Username*<input type="text" name="Repeat password" pattern="[a-z]*" required></label>
                 <label><button type="submit" id="submitButton">Rate Page</button></label>    
             </form>
         </div>
 
+
+        <div>
+            <table>
+                <caption> Table Output</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Form Input</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Field</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td> Jerry Lach</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>jflach@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Rating:</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Username:</td>
+                        <td>jeril12</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
     <footer> 
         <p> &copy;
             <script>document.write(new Date().getFullYear())</script>
