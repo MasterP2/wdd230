@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Peace Arikpo" />
+        <meta property="og:title" content="WDD 230  Course Portal Page | Peace Arikpo">
+        <meta property="og:type" content="Personal Website" />
+        <meta property="og:image" content="images/logo.png">
+        <meta property="og:url" content="https://peace-23.github.io/wdd230/">
+        <meta name="description" content="WDD 230 - Peace Arikpo - Course Team Activity Portal" />
+        <!-- <meta name="twitter:card" content="summary_large_image"> -->
+        <title>WDD 230 - Portal - Peace Arikpo</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css" /> 
+        <link rel="stylesheet" href="styles/larger.css" />
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body class="joinBody">
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="darkButton">Dark Mode ☑️</button>
+                    </li>
+                    <li class="nav-item">
+                    <a href="https://peace-23.github.io/wdd230/chamber/join.html" class="nav-link" target="_blank">Join</a>
+                    </li>
+                   <li class="nav-item">
+                    <a href="https://peace-23.github.io/wdd230/chamber/directory.html" class="nav-link" target="_blank">Directory</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="https://peace-23.github.io/wdd230/chamber/discover.html" class="nav-link" target="_blank">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="https://peace-23.github.io/wdd230/chamber/index.html" class="nav-link" target="_blank">Home</a>
+                    </li> 
+                </ul>
+                <div class="hamburger">
+                   <img class="hamb-menu" src="images/menu.svg" loading="lazy" width="25" height="25" alt="menu">
+                   <img class="x-menu" src="images/x.svg" loading="lazy" width="25" height="25" alt="menu">
+                </div>
+             </nav>
+            
+    <header> 
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/greece-gd7eb635c4_1920_small.webp" >
+                <source media="(max-width: 1000px)" srcset="images/greece-gd7eb635c4_1920_medium.webp" >
+                <img src="images/greece-gd7eb635c4_1920.webp" alt="arial photo" width="1000" height="400" loading="lazy" >
+            </picture>
+            <div class="herolabel">
+                <h1><span>Abeokuta</span>Chamber of Commerce</h1> <br>
+                <a class="callout-btn"  href="#">Join Us!</a>
+            </div>
+        </div>
+    </header>
+        <main class="joinPage"> 
+            <div class="joinContact">
+                <form method="get" action="thanks.html">
+                <fieldset  id="contact-info">
+                    <legend>Contact Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Title<input type="text" name="title" pattern="[a-zA-Z- ]{7,}"></label>
+                    <label class="top">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                    <label class="top">Phone*<input type="tel" name="phone" required placeholder="1235551234"></label>
+                </fieldset>
+
+                <fieldset id="business-info">
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name*<input type="text" name="Name" required></label>
+                    <label class="top">Membership Level
+                        <select name="membership">
+                            <option value="#">--Please Select-- &#9662;</option>
+                            <option value="Non-Profit">Non-Profit Membership</option>
+                            <option value="Bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option> 
+                        </select>
+                    </label>
+    
+                    <label id="description">Describe your business:
+                    </label>
+                    <textarea name="description"  rows="10" cols="50" id="description"></textarea>
+                    <input type="hidden" name="language" id="dateHidden">
+    
+                </fieldset>
+                <input type="submit" value="Join Our Chamber" class="submitButton">
+        </form>
+         </div>
+
+         <div>
+            <table>
+                <caption> Please contact us for more details.</caption>
+                <thead>
+                    <tr>
+                        <th colspan="5" scope="colgroup">Membership Benefits by Levels</th>
+                    </tr>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
+                        <th scope="col">Non-Profit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Event Discounts</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                    </tr>
+                    <tr>
+                        <td>Special Events Access</td>
+                        <td>&#10006</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                    </tr>
+                    <tr>
+                        <td>Spotlight Advertising</td>
+                        <td>&#10006</td>
+                        <td>&#10006</td>
+                        <td>&#x2714</td>
+                        <td>&#x2714</td>
+                    </tr>
+                    <tr>
+                        <td>Special Trainings</td>
+                        <td>&#10006</td>
+                        <td>&#10006</td>
+                        <td>&#10006</td>
+                        <td>&#x2714</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+        <div class="benefit-info">
+            <h3>More Informations on Benefit</h3>
+            <h4>Event Discounts</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <h4>Special Events Access</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. .</p>
+            <h4>Spotlight Advertising</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. .</p>
+            <h4>Special Trainings</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. .</p>
+        </div>
+
+
+        </main>
+    <footer> 
+        <p> &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            | Peace Arikpo | Nigeria
+       </p>
+       <p class="highlight" id="lastModified">
+           <script>
+               const date = new Date(document.lastModified);
+               document.getElementById("lastModified").innerHTML = date; 
+           </script>
+       </p>
+
+    </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/localStorage.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/darkMode.js"></script>
+    </body>
+</html>
+
+
+

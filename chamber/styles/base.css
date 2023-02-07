@@ -448,5 +448,266 @@ h2.events {
 }
 
 
+/* --------Join Page-------- */
+
+
+/* .joinBody{
+    background-color: #f2cc8f;
+} */
+
+
+
+.joinContact legend{
+    color: #445ba9;
+    margin: 0 1em;
+    padding: 0 .5em;
+    font-size: 1.5em;
+    color: #9c2c13;
+}
+
+label.top, form div{
+    display: block;
+    padding-top: 1em;
+    color: #9c2c13;
+    font-size: 1em;
+}
+
+
+label.top input, label.top select {
+    display: block;
+    font-size: 1em;
+    border: solid 1px grey;
+    border-radius: 4px;
+    /* padding: .75em; */
+    color: #555;
+    width: 100%;
+    max-width: 20em;
+    background-color: rgba(0,0,0,0.1);
+}
+
+input.submitButton{
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1em;
+    padding: .75em 1.5em;
+    margin: 0 0 2em 2%;
+    width: 96%;
+    max-width: 20em;
+
+}
+label.top input:required{
+    border-left: red solid 6px;
+}
+label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+
+#description {
+    margin-bottom: auto;
+    display: block;
+    padding-top: 1em;
+    color: #9c2c13;
+    font-size: 1em;
+
+}
+
+
+div .joinContact {
+    margin: 5px;
+    padding: 1em;
+
+}
+
+#contact-info{
+
+    margin-bottom: 30px;
+    padding: 2em;
+    border-radius: 1em;
+
+}
+
+
+#business-info{
+
+    /* margin-top: 50em; */
+    padding: 2em;
+    margin-bottom: 30px;
+    border-radius: 1em;
+
+}
+
+
+.contact{
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    max-width: 375px;
+    margin: auto;
+    padding: .5em;
+    border-radius: 1em;
+  
+}
+.contact h4{
+    font-size: larger;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1em;
+    display: block;
+    padding-bottom: .25em;
+    padding-left: 1em;
+}
+
+label.top input, label.top select{
+    display: block;
+    font-size: 1em;
+    border: solid 1px grey;
+    border-radius: 4px;
+    /* padding: .75em; */
+    color: #555;
+    width: 100%;
+    max-width: 20em;
+    background-color: rgba(0,0,0,0.1);
+}
+
+label.top input:required{
+    border-left: red solid 6px;
+}
+label.top input:required:valid{
+    border-left: green solid 6px;
+}
+
+#input.submitButton{
+    border: none;
+    border-radius: 1em;
+    padding: .75em 1.5em;
+    margin: 0 0 2em 2%;
+    width: 96%;
+    max-width: 20em;
+    font-size: 20px;
+
+}
+
+/* #submitButton {
+    background-color: #9c2c13;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: .75em 1.5em;
+    margin: 0 0 2em 2%;
+    width: 96%;
+    max-width: 20em;
+
+
+} */
+
+
+input {
+    margin: 0;
+    padding-left: 1em;
+    line-height: 2.5em;
+    display: block;
+    /* margin-bottom: 1em; */
+    /* font-weight: 700; */
+}
+
+
+/* --------Benefit Table------------------- */
+
+:root {
+	--back: hsla(150, 50%, 30%, 1);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+	margin: 50px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 7px var(--shadow);
+	border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+thead tr:first-child{
+    background-color: var(--back);
+    color: var(--forelight);
+}
+
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+/* tbody tr:nth-child(2) td:nth-child(2), tr:nth-child(3) td:nth-child(2), td:nth-child(3){
+    color: red;
+} */
+
+
+.benefit-info {
+    display: grid;
+    grid-column: 2/3;
+    /* max-width: 450px; */
+    grid-row: 2/3;
+    align-content: start;
+    margin-top: 1em;
+    border: thin solid var(--border);
+	box-shadow: 0 0 7px var(--shadow);
+    background-color: whitesmoke;
+    
+}
+
+.benefit-info h4 {
+    padding-top: 1em;
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+    background-color: whitesmoke;
+
+
+}
+
+.benefit-info p{
+    padding: .5em;
+    margin: auto;
+    text-align: left;
+   background-color: whitesmoke;
+}
+
 
 }

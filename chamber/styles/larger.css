@@ -424,5 +424,36 @@
     width: 100%;
 }
 
+
+
+/* ------------JoinPage--------- */
+
+.joinPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35% auto;
+    height: 65em;
+    /* max-width: 64em; */
+    margin: 25px;
+    padding: 5em;
+    
+}
+
+/* ------------JoinPage_Benefit Table--------- */
+
+
+main.joinPage{
+    grid-column: 2/3;
+    width: 100%;
+    padding: 5em;
+    margin: auto;
+    gap: 40px;
+
+}
+
+
+
+
+
 }
 
