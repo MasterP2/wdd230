@@ -436,6 +436,7 @@
     /* max-width: 64em; */
     margin: 25px;
     padding: 5em;
+    /* background-color: #9ad1d4; */
     
 }
 
@@ -449,8 +450,13 @@ main.joinPage{
     margin: auto;
     gap: 40px;
 
+
 }
 
+
+body.joinBody, .joinHeader{
+    background-color: #e3f2fd ;
+}
 
 
 
