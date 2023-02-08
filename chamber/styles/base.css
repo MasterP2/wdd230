@@ -685,10 +685,11 @@ tbody tr:nth-child(even) {
     /* max-width: 450px; */
     grid-row: 2/3;
     align-content: start;
-    margin-top: 1em;
+    margin-top: 2em;
     border: thin solid var(--border);
 	box-shadow: 0 0 7px var(--shadow);
     background-color: whitesmoke;
+
     
 }
 
@@ -706,7 +707,14 @@ tbody tr:nth-child(even) {
     padding: .5em;
     margin: auto;
     text-align: left;
-   background-color: whitesmoke;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.joinPage #joinBenInfo {
+    justify-content: left;
 }
 
 
