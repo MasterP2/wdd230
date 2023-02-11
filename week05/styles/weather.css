@@ -1,0 +1,27 @@
+
+
+.card {
+    color: red;
+    background-color: aqua;
+
+}
+
+#town {
+    color: black;
+    font-size: larger;
+}
+
+#graphic {
+    color: blue;
+    background-color: brown;
+}
+
+#description {
+    color: red;
+}
+
+
+#temperature {
+    color: green;
+    font-size: larger;
+}

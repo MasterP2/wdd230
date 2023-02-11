@@ -1,0 +1,22 @@
+
+
+{
+    "week 01": [{"name": "Holy Grail", "link": "https://peace-23.github.io/wdd230/week01/holygrail.html"}, {"name": "Media-Query", "link": "https://peace-23.github.io/wdd230/week01/media-query.html"},{"name": "Javascript","link": "https://codepen.io/kateaeryn/pen/vYaKjYa"}],
+
+    "week 02": [{"name": "Design Page", "link": "https://peace-23.github.io/wdd230/week02/design.html"},{"name": "Hamburger", "link": "https://peace-23.github.io/wdd230/week02/Hamburger.html"},{"name": "BOM App", "link":"https://peace-23.github.io/wdd230/week02/bom.html"}],
+
+    "week 03": [{"name": "WebP", "link":"https://peace-23.github.io/wdd230/week03/images/landscape.webp"}, {"name": "Native Lazy Loading","link":"https://peace-23.github.io/wdd230/week03/lazyload.html"}, {"name": "Responsive Img-srcset", "link": "https://codepen.io/masterp2/pen/NWBXQjZ"}, {"name": "API-Local Storage", "link": "https://peace-23.github.io/wdd230/week03/bom.html"}],
+
+
+    "week 04": [{"name": "Psuedo CSS", "link": "https://codepen.io/masterp2/pen/JjBxgvJ"}, {"name": " Native Lazy Loading", "link": "week04/images/combinator.jpg"},{"name": "Tables", "link": "http://127.0.0.1:5500/week04/tablebuild.html"}, {"name": "Forms", "link": "http://127.0.0.1:5500/week04/form-start/index.html"}],
+    "week 05": [{"name": "Psuedo-Elements", "link": "https://codepen.io/masterp2/pen/BaPXrZe"}, {"name": "JSON", "link": "https://peace-23.github.io/wdd230/week05/new-ward-members.json"}, {"name": "Prophets", "link": "http://127.0.0.1:5500/week05/prophets.html"}, {"name": "Weather", "link": "http://127.0.0.1:5500/week05/weather.html"}]
+    
+}
+
+ 
+
+
+
+                
+              
+               

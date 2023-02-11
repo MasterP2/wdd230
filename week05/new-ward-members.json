@@ -1,0 +1,30 @@
+{
+    "familyName" : "Alohan",
+    "moveDate" : "March 2022",
+    "noRecords" : "4",
+     "visited" : true,
+    "HouseHold" : [
+      {
+        "name" : "Peter",
+        "gender" : "male",
+        "age" : 30
+
+      },
+      {
+        "name" : "Rita",
+        "gender" : "Female",
+        "age" : 28
+      },
+      {
+        "name" : "Daniel",
+        "gender" : "male",
+        "age" : 5
+      },
+      {
+        "name" : "Sarah",
+        "gender" : "Female",
+        "age" : 2
+      }
+    ]
+  }
+  

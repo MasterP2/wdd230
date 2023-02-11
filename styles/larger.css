@@ -28,7 +28,7 @@
         max-width: 960px;
         display: grid;
         margin: auto;
-        grid-template-rows: 27em 6em 11em 15em;
+        grid-template-rows: 27em 6em 11em 17em;
         grid-template-columns: 1fr 1fr;
 
     }
@@ -91,7 +91,7 @@
     .card3 {
         grid-column:2/3;
         grid-row: 4/5;
-        padding: 0em;
+        padding-top: 0em;
         border-radius: 0.7em;
         font-size: 18px;
         /* background-color:#ffddd2; */background-color: var(--section-color);
@@ -108,14 +108,15 @@
 
 
     .card3 p{
-        /* background-color:#ffddd2; */background-color: var(--section-color);
+        /* background-color:#ffddd2;  */background-color: var(--section-color);
         color: black;
         text-align: left;
         font-size: medium;
         padding: 0em;
         font-size: 18px;
         border: 0;
-        margin: 10px;
+        margin-left: 10px;
+      
 
     }
 
