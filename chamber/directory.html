@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Peace Arikpo" />
+        <meta property="og:title" content="WDD 230  Course Portal Page | Peace Arikpo">
+        <meta property="og:type" content="Personal Website" />
+        <meta property="og:image" content="images/logo.png">
+        <meta property="og:url" content="https://peace-23.github.io/wdd230/">
+        <meta name="description" content="WDD 230 - Peace Arikpo - Course Team Activity Portal" />
+        <!-- <meta name="twitter:card" content="summary_large_image"> -->
+        <title>WDD 230 - Portal - Peace Arikpo</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css" /> 
+        <link rel="stylesheet" href="styles/larger.css" />
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="darkButton">Dark Mode ☑️</button>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://peace-23.github.io/wdd230/chamber/join.html" class="nav-link" target="_blank">Join</a>
+                        </li>
+                       <li class="nav-item">
+                        <a href="https://peace-23.github.io/wdd230/chamber/discover.html" class="nav-link" target="_blank">Discover</a>
+                       </li>
+                   <li class="nav-item">
+                    <a href="https://peace-23.github.io/wdd230/chamber/index.html" class="nav-link" target="_blank">Home</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                   <img class="hamb-menu" src="images/menu.svg" loading="lazy" width="25" height="25" alt="menu">
+                   <img class="x-menu" src="images/x.svg" loading="lazy" width="25" height="25" alt="menu">
+                </div>
+             </nav>
+            
+    <header class="directoryHeader">
+                <span><h1 id="directoryTitle"><span>Abeokuta</span>Chamber of Commerce</h1> <br>
+                <a class="callout-btn"  href="#">Join Chamber!</a></span>
+
+    </header>
+        <main class="directory">
+                <div class="directoryMenu">
+                    <button id="grid">⏹️Grid</button>
+                    <button id="list">📄List</button>
+                </div>
+                <hr>
+                <article class="grid">
+                    <section>
+                        <img src="images/AdexPhoto.png" alt="Adex Photography" />
+                        <h3>Adex Photography</h3>
+                        <p>12 Ibara GRA, Abeokuta, Ogun State, Nigeria</p>
+                        <p>202-918-2132</p>
+                        <a href="#" target="_blank">adexlighthousephoto.com</a>
+                    </section>
+            
+                    <section>
+                        <img src="images/boulvard-Inn.png" alt="Boulvard-Inn" />
+                        <h3>Boulvard-Inn</h3>
+                        <p>35 Quarry Road, Agbeloba, Abeokuta, Nigeria</p>
+                        <p>314-392-3165</p>
+                        <a href="#" target="_blank">boulvardinnabeokuta.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/ewangParks.png" alt="Ewang Parks" />
+                        <h3>Ewang Parks</h3>
+                        <p>102 Kuto Rd, Abeokuta, Ogun State, Nigeria</p>
+                        <p>505-646-7801</p>
+                        <a href="#" target="_blank">ewangparkresort.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/JaneRealtor.png" alt="Jane Real Estate" />
+                        <h3>Jane Real Estate</h3>
+                        <p>16 Presidential Blvd, Abeokuta, Ogun State, Nigeria</p>
+                        <p>323-586-5918</p>
+                        <a href="#" target="_blank">janerealtor.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/lolacatering.png" alt="Lola Catering" />
+                        <h3>Lola Catering</h3>
+                        <p>25 Oba Gbadebo Rd, Abeokuta, Ogun State, Nigeria</p>
+                        <p>209-359-0017</p>
+                        <a href="#" target="_blank">lolacateringservices.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/RicheShop.png" alt="Riche Shop" />
+                        <h3>Riche Shop</h3>
+                        <p>92 Ibara Roudabout, Abeokuta, Ogun State, Nigeria</p>
+                        <p>505-520-2527</p>
+                        <a href="#" target="_blank">richybabbershop.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/samDelivery.png" alt="Sam Delivery" />
+                        <h3>Sam Delivery</h3>
+                        <p>52 Ijaye Kukude, Abeokuta, Ogun State, Nigeria</p>
+                        <p>364-492-7258</p>
+                        <a href="#" target="_blank">samydelivery.com</a>
+                    </section>
+                    
+                    <section>
+                        <img src="images/silviaFashion.png" alt="Silvia Stiches" />
+                        <h3>Silvia Stiches </h3>
+                        <p>45 Nepa Road, Imo, Abeokuta, Nigeria</p>
+                        <p>203-413-3957</p>
+                        <a href="#" target="_blank">silviafashiondesigns.com</a>
+                    </section>
+
+                </article>
+                <div class="cards"></div>
+        </main>
+  
+    <footer> 
+        <p> &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            | Peace Arikpo | Nigeria
+       </p>
+       <p class="highlight" id="lastModified">
+           <script>
+               const date = new Date(document.lastModified);
+               document.getElementById("lastModified").innerHTML = date; 
+           </script>
+       </p>
+
+    </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/localStorage.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/darkMode.js"></script>
+        <script src="scripts/toggle.js"></script>
+        <script src="scripts/members.js"></script>
+     
+    </body>
+</html>
+
+
+
+<!-- const response = await fetch("data/members.json"); -->
