@@ -59,7 +59,7 @@
         max-width: 960px;
         display: grid;
         margin: auto;
-        grid-template-rows: 6em 15em  11em 1em;
+        grid-template-rows: 6em 20em  13.5em 1em;
         grid-template-columns: 1fr 1fr 1fr ;
 
     }
@@ -458,25 +458,6 @@ body.joinBody, .joinHeader{
     background-color: #e3f2fd ;
 }
 
-
-.grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-    gap: .5em;
-}
-
-.directory {
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    background-color: #ffb703;
-    margin: 0 auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	max-width: 900px;
-	font-family: Roboto, Helvetica, sans-serif;
-
-}
 
 
 }
