@@ -5,7 +5,7 @@
      "phone": "202-918-2132",
      "email": "support@adexphotos.com",
      "url": "adexlighthousephoto.com",
-     "image": "images/AdexPhoto.png",
+     "image": "https://chamber/images/AdexPhoto.png",
      "membership": "silver"
  },
  {"name": "Ewang Parks",
@@ -13,7 +13,7 @@
      "phone": "314-392-3165",
      "email": "support@boulvardinn.com",
      "url": "boulvardinnabeokuta.com",
-     "icon": "images/boulvard-Inn.png",
+     "icon": "chamber/images/boulvard-Inn.png",
      "membership": "Gold"
  },
  {"name": "Ewang Parks",
@@ -21,7 +21,7 @@
      "phone": "505-646-7801",
      "email": "support@eparks.com",
      "url": "ewangparkresort.com",
-     "icon": "images/ewangParks.png",
+     "icon": "chamber/images/ewangParks.png",
      "membership": "Silver" 
  },
  {"name": "Jane Real Estate",
@@ -29,7 +29,7 @@
      "phone": "323-586-5918",
      "email": "support@janerealtor.com",
      "url": "janerealtor.com",
-     "icon": "images/JaneRealtor.png",
+     "icon": "chamber/images/JaneRealtor.png",
      "membership": "Bronze" 
  },
  {"name": "Lola Catering",
@@ -37,7 +37,7 @@
      "phone": "209-359-0017",
      "email": "manager@lolacater.com",
      "url": "somebulolacateringservices.com",
-     "icon": "images/lolacatering.png",
+     "icon": "chamber/images/lolacatering.png",
      "membership": "Gold" 
  },
  {"name": "Riche Shop",
@@ -45,7 +45,7 @@
      "phone": "505-520-2527",
      "email": "talkwithriche@rbabbershop.com",
      "url": "richybabbershop.com",
-     "icon": "images/RicheShop.png",
+     "icon": "chamber/images/RicheShop.png",
      "membership": "Bronze"
  },
 
@@ -54,7 +54,7 @@
      "phone": "364-492-7258",
      "email": "office@samdelivery.com",
      "url": "samydelivery.com",
-     "icon": "images/samDelivery.png",
+     "icon": "chamber/images/samDelivery.png",
      "membership": "Silver" 
  },
 
@@ -63,8 +63,9 @@
  "phone": "203-413-3957",
  "email": "manager@silviadesign.com",
  "url": "silviafashiondesigns.com",
- "icon": "images/silviaFashion.png",
+ "icon": "chamber/images/silviaFashion.png",
  "membership": "Bronze"
  }
  ]
  }
+
