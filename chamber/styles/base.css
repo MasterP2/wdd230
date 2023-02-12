@@ -746,11 +746,7 @@ tbody tr:nth-child(even) {
 
 }
 
-/* .directory1 {
-    grid-column: 2/2;
-    grid-row: 2/3;
-} */
-     
+
 .directoryMenu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -777,12 +773,13 @@ section {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ffb703;
+	background-color: #ede0d4;
 }
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
+    gap: .5em;
 }
 
 .grid section {
@@ -805,8 +802,8 @@ section {
 }
 
 .list section {
-	/* display: grid;
-	grid-template-columns: 2fr 1fr 1fr; */
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
     
@@ -826,7 +823,7 @@ section {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: #ede0d4;
 } 
 
 section h3 {
