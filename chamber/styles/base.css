@@ -134,7 +134,7 @@ header {
     justify-items: center;
     color:#E6E6EA;
     text-align: center;
-    margin-bottom: 7em;
+    /* margin-bottom: 7em; turn on later*/
 }
 
 .callout {
@@ -481,6 +481,25 @@ h2.events {
     color: #9c2c13;
 }
 
+.joinHeader {
+    background-color: #606c38;
+    margin-top: .3em;
+    margin-top: 8px;
+    border-top:  solid #fb8500;
+    border-width: thick;
+    height: 25rem;
+}
+
+#joinTitle {
+    font-size: 7em;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: .5em;
+    color: #fb8500;
+
+
+}
+
 label.top, form div{
     display: block;
     padding-top: 1em;
@@ -662,8 +681,13 @@ caption {
 	font-size: .85rem;
 }
 
-tr:first-child th, .highlight {
+/* tr:first-child th, .highlight {
 	background-color: var(--back);
+	color: var(--forelight);
+} */
+
+tr:first-child th, .highlight {
+	/* background-color: var(--back); */
 	color: var(--forelight);
 }
 
@@ -763,7 +787,11 @@ tbody tr:nth-child(even) {
 }
 
 
+
 .directoryMenu {
+    /* display: grid; */
+    grid-column: 1 span / 2;
+    grid-row: 1/ 2;
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
@@ -779,6 +807,7 @@ tbody tr:nth-child(even) {
 
 }
 
+
 article,
 section {
 	margin: 0.5rem;
@@ -786,14 +815,14 @@ section {
     flex-direction: column; */
 }
 
-/* section {
+section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
 	background-color: #ede0d4;
-} */
+} 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr));
 	align-items: center;
     gap: .5em;
 }
@@ -858,6 +887,55 @@ section a {
     margin-top: .75em;
     width: auto;
     box-shadow: 0 0 30px #777;
+}
+
+
+/*---------Thank you Page---------*/
+
+.appreciationHeader {
+    background-color: #2b2d42;
+    margin-top: .3em;
+    margin-top: 8px;
+    border-top:  solid #db3a34;
+    border-width: thick;
+    height: 25rem;
+}
+
+#appreciationHeader {
+    font-size: 7em;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: .5em;
+    color: whitesmoke;
+
+
+}
+
+.appreciationMain h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1/2;
+    color: #463f3a;
+    margin-bottom: 5px;
+
+
+}
+
+
+#appreciationP {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 2/3;
+    color: #003566;
+    background-color: whitesmoke;
+    margin-bottom: 5em;
+    line-height: 2em;
+    size: 20px;
+    
+
+
 }
 
 
