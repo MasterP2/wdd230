@@ -30,3 +30,40 @@ function displayResults(data) {
    
     captionDesc.textContent = `${desc}`;
 }
+
+async function apiForecast() {
+    try {
+        const response = await fetch(forecasturl);
+        if (response.ok) {
+            const data = await response.json();
+            displayForecast(data);
+        } else {
+            throw Error(response.text);
+        }
+    } catch (error) {
+            console.log(error);
+        }
+}
+apiForecast();
+
+const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+function displayForecast(data) {
+    const firstDay = weekDay[new Date(`${data.list[2].dt_txt}`).getDay()]; 
+    const secondDay = weekDay[new Date(`${data.list[10].dt_txt}`).getDay()]; 
+    const thirdDay = weekDay[new Date(`${data.list[18].dt_txt}`).getDay()]; 
+    const oneT = `${Math.round(data.list[0].main.temp)} &deg;F`;
+    const twoT = `${Math.round(data.list[3].main.temp)} &deg;F`;
+    const threeT = `${Math.round(data.list[11].main.temp)} &deg;F`;
+   
+    forecast.innerHTML = firstDay;
+    forecast2.innerHTML = secondDay;
+    forecast3.innerHTML = thirdDay;
+    tempOne.innerHTML = oneT;
+    tempTwo.innerHTML = twoT;
+    tempThree.innerHTML = threeT;
+
+
+
+}
+  

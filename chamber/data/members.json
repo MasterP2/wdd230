@@ -13,7 +13,7 @@
      "phone": "314-392-3165",
      "email": "support@boulvardinn.com",
      "url": "boulvardinnabeokuta.com",
-     "icon": "chamber/images/boulvard-Inn.png",
+     "icon": "https://chamber/images/boulvard-Inn.png",
      "membership": "Gold"
  },
  {"name": "Ewang Parks",
@@ -37,7 +37,7 @@
      "phone": "209-359-0017",
      "email": "manager@lolacater.com",
      "url": "somebulolacateringservices.com",
-     "icon": "chamber/images/lolacatering.png",
+     "icon": "https://chamber/images/lolacatering.png",
      "membership": "Gold" 
  },
  {"name": "Riche Shop",
@@ -54,7 +54,7 @@
      "phone": "364-492-7258",
      "email": "office@samdelivery.com",
      "url": "samydelivery.com",
-     "icon": "chamber/images/samDelivery.png",
+     "icon": "https://chamber/images/samDelivery.png",
      "membership": "Silver" 
  },
 

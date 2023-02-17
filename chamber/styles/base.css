@@ -1,6 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');  */
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 @media only screen and (min-width: 20rem) {
+    
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
 
 .menu-icon {
     /* resize:30px; */
@@ -253,6 +254,19 @@ h2 {
 }
 
 
+.firstpageBanner {
+    display: flex; 
+    /* flex-direction: column-reverse; */
+    background-color: #3d5a80;
+    font-size: 30px;
+    color: #fff;
+    /* align-items: left; */
+    height: 10px;
+    border-radius: .8em;
+    margin-top: 1em;
+
+}
+
 
 main {
     display: block;
@@ -268,7 +282,7 @@ main {
 
 
 .weather {
-    display: flex;
+    /* display: flex; */
     max-width: 3em;
     width: 100%;
     height: 3em;
@@ -278,19 +292,24 @@ main {
 }
 
 figure{
-    padding-left: 1em;
+    padding-left: 4em;
     margin: 1em;
+
+}
+
+.card2 p{
+    text-align: center;
 }
 
 
 h3 {
     font-size: 20px;
-    color: #fff;
-    background-color: rgb(0, 183, 255);
-    margin: 0em;
+    color: #3d5a80;
+    /* background-color: #3d5a80; */
+    margin: .5em;
     border: 0.5em;
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: .5rem;
     /* font-display: block; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
@@ -336,6 +355,59 @@ footer {
     color:#fff;
     text-align: center;
     padding: .2em;
+}
+.spotlights {
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+    
+}
+
+.spotlights section {
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-row: 3/4;
+    border: solid #eee;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.spotlights section h3 {
+    background-color: #3d5a80;
+    color: #fff;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 0;
+    padding: .25em;
+    height: 75px;
+}
+.spotlights section h3 img{
+    display: block;
+    max-width: 250px;
+    max-height: 100px;
+    width: 100%;
+    /* height: 100%; */
+    margin: 0 auto;
+    object-fit: fill;
+}
+
+.spotlights section p {
+    padding: .5em;
+    margin: 0;
+    text-align: center;
+}
+
+.spotlights section a {
+    color: #9c2c13;
+}
+.spotlights section p:first-of-type{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*========*/
@@ -429,7 +501,7 @@ h2.events {
     grid-column: 3/-3 ;
     grid-row: 3/4;
     font-size:  20px;
-    padding: auto;
+    padding: 0em;
     margin: 0em;
     border: none;
     font-family: "Roboto", sans-serif;
@@ -462,6 +534,16 @@ h2.events {
 
 
 }
+
+ .img1:hover,
+ .img2:hover,
+ .img3:hover,
+ .img4:hover,
+ .img5:hover,
+ .img6:hover {
+    box-shadow: 0 0 20px #333;
+}
+
 
 
 /* --------Join Page-------- */
@@ -822,7 +904,7 @@ section {
 } 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr ));
 	align-items: center;
     gap: .5em;
 }
@@ -833,12 +915,29 @@ section {
 
 }
 
+.directory1:hover,
+.directory2:hover,
+.directory3:hover,
+.directory4:hover,
+.directory5:hover,
+.directory6:hover,
+.directory7:hover,
+.directory8:hover
+ {
+	opacity: 0.75;
+	background-color: #fff;
+	color: white;
+    
+}
+
 .grid section > * {
 	margin: 0.1rem;
+    
 }
 
 .grid h3 {
 	font-family: "Caveat", cursive;
+    text-align: center;
 }
 
 .list {
@@ -932,7 +1031,7 @@ section a {
     background-color: whitesmoke;
     margin-bottom: 5em;
     line-height: 2em;
-    size: 20px;
+    /* resize: 20px; */
     
 
 
